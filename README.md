@@ -27,9 +27,6 @@ Information on the data? [Click here.](#information-of-the-data)
 3. How do pricing strategies, as indicated by variables like "PRICEEACH" and "MSRP," impact sales volumes?
 4. What is the distribution of customers across different regions or countries? Are there any geographical trends in sales performance?
 
-5. Are there any notable relationships between sales quantities and other variables, such as "QUANTITYORDERED" or "ORDERLINENUMBER"?
-6. Can we identify any patterns or trends in customer behavior based on variables like "DAYS_SINCE_LASTORDER" or "DATE_SINCE_LASTORDER"?
-
 7. Are there any anomalies or outliers in the data that may require further investigation?
 
 
@@ -73,12 +70,7 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'Month', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Monthly Sales', loc = 'left')
 ```
-<<<<<<< HEAD
-
-![MonthlySales](Images\Monthly_Sales.png)
-=======
 ![Monthly_Sales](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/67125a43-b056-438f-bd38-4038566161e3)
->>>>>>> a3827ce8024deae07eb0ef1dcce363bf7ef9aa3d
 
 ``` py
 # Weekly Sales
@@ -101,9 +93,6 @@ Outliers: There are a few notable spikes in sales, particularly around March, 20
 
 Periods of Stability: Between some of the spikes, there are periods of relatively stable sales, suggesting consistent performance during those times.
 
-### Note
-By understanding these trends, businesses can make informed decisions regarding inventory management, marketing strategies, and resource allocation to capitalize on peak sales periods and mitigate slower periods.
-
 ### 2. Which product lines are the best-selling? 
 ```py
 # Sales vs Productline
@@ -121,19 +110,44 @@ plt.title('Sales by ProductLine', loc = 'left')
 ```
 ![Productline_Sales](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/545bcd27-1312-4e69-8f1f-6bf890458443)
 
-### Findings
+### Summary of the result
 
-1. **Classic Cars** have the highest sales among all product lines, totaling approximately $3.8 million.
-  
-2. **Vintage Cars** come next, with sales reaching around \$1.8 million.
+1. **Classic Cars** have the highest sales among all product lines, totaling approximately $3.8 million with **Vintage Cars** coming next, with sales reaching around $1.8 million.
 
 3. **Trucks and Buses** and **Motorcycles** both have significant sales, each exceeding \$1.1 million.
 
-4. **Planes** and **Ships** follow with sales around \$970,000 and \$700,000, respectively.
+4. **Planes** and **Ships** follow with sales around \$970,000 and \$700,000, respectively. and **Trains** have the lowest sales among the product lines, totaling approximately \$226,000.
 
-5. **Trains** have the lowest sales among the product lines, totaling approximately \$226,000.
+### Note
+Avearge price of the items was not compared because there exists some outliner in the sales column.
+
+🔍Jubyter notebook? Check them here: [Jubyter Notebook.](car_sales_analysis.ipynb)
+
+🔍Tableau Dashboard? Check them here: [Tableau Dashboard.](car_sales_analysis.ipynb) 
 
 
+### 3. How do pricing strategies, as indicated by variables like "PRICEEACH" and "MSRP," impact sales volumes?
+
+
+Correlation betweem the three variables.
+|           | PRICEEACH |    MSRP   |   SALES   |
+|-----------|-----------|-----------|-----------|
+| PRICEEACH |  1.000000 |  0.778393 |  0.808287 |
+| MSRP      |  0.778393 |  1.000000 |  0.634849 |
+| SALES     |  0.808287 |  0.634849 |  1.000000 |
+
+
+
+### Summary on the result
+
+1. **Price Each (PRICEEACH) and Sales (SALES)**: There is a strong positive correlation of approximately 0.808 between the price of each item and the total sales amount. This indicates that as the price of each item increases, the total sales also tend to increase. 
+
+2. **MSRP and Sales (SALES)**: There is a moderate positive correlation of approximately 0.635 between the Manufacturer's Suggested Retail Price (MSRP) and the total sales amount. This indicates that items with higher MSRP values tend to generate higher total sales.
+
+Overall, these correlations suggest that there are positive relationships between the price of each item, MSRP, and total sales amount. However, it's important to remember that correlation does not imply causation, and other factors may also influence these relationships.
+
+
+### 4. What is the sales of customers across different cities or countries? Are there any geographical trends in sales performance?
 
 
 
