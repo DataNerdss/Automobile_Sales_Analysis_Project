@@ -61,7 +61,8 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'ORDERDATE', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Yearly Sales', loc = 'left')
 ```
-![Sales by Year](Images\Sales_By_Year.png)
+![Sales_By_Year](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/f1d4d31c-9dcb-44eb-8e41-69db658f46f7)
+
 ``` py
 # Monthly Sales
 
@@ -72,8 +73,12 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'Month', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Monthly Sales', loc = 'left')
 ```
+<<<<<<< HEAD
 
 ![MonthlySales](Images\Monthly_Sales.png)
+=======
+![Monthly_Sales](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/67125a43-b056-438f-bd38-4038566161e3)
+>>>>>>> a3827ce8024deae07eb0ef1dcce363bf7ef9aa3d
 
 ``` py
 # Weekly Sales
@@ -84,7 +89,7 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'Week', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Weekly Sales', loc = 'left')
 ```
-![Weekly_Sales](Images\Weekly_Sales.png)
+![Weekly_Sales](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/ae891796-2769-4290-a020-01314b1831af)
 
 ## Summary of the result
 
@@ -114,7 +119,7 @@ for p in plt.gca().patches:
 
 plt.title('Sales by ProductLine', loc = 'left')
 ```
-![ProductLine](Images\Productline_Sales.png)
+![Productline_Sales](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/545bcd27-1312-4e69-8f1f-6bf890458443)
 
 ### Findings
 
