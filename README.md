@@ -136,7 +136,7 @@ Correlation betweem the three variables.
 | MSRP      |  0.778393 |  1.000000 |  0.634849 |
 | SALES     |  0.808287 |  0.634849 |  1.000000 |
 
-
+![Correlation_sales_by_price](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/30063d6e-adc1-4ba1-add4-ac8da9e628e4)
 
 ### Summary on the result
 
