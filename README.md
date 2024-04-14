@@ -174,6 +174,12 @@ Yes, there are outliners present in the data.
 Lets explore the numerical columns for the outliners
 
 
+![QuantityOrdered_dist](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/192337d9-e42d-4036-ae07-bec15891b00c)
+
+![price_per_item_dist](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/c174c7f4-7563-4d49-9044-7f861a94caae)
+
+![Sales_dist](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/7f3ee590-06a2-4f38-a302-3072c1742a6c)
+
 
 
 # Information of the data
