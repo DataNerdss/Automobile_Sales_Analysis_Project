@@ -61,7 +61,7 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'ORDERDATE', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Yearly Sales', loc = 'left')
 ```
-![#](Images\Sales_By_Year.png)
+![Sales by Year](Images\Sales_By_Year.png)
 ``` py
 # Monthly Sales
 
@@ -72,7 +72,7 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'Month', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Monthly Sales', loc = 'left')
 ```
-![](Images\Monthly_Sales.png)
+![MonthlySales](Images\Monthly_Sales.png)
 ``` py
 # Weekly Sales
 plt.figure(figsize=(20,5))
@@ -82,7 +82,7 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'Week', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Weekly Sales', loc = 'left')
 ```
-![](Images\Weekly_Sales.png)
+![Weekly_Sales](Images\Weekly_Sales.png)
 
 ## Summary of the result
 
@@ -112,7 +112,7 @@ for p in plt.gca().patches:
 
 plt.title('Sales by ProductLine', loc = 'left')
 ```
-![](Images\Productline_Sales.png)
+![ProductLine](Images\Productline_Sales.png)
 
 ### Findings
 
