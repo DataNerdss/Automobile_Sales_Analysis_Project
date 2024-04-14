@@ -27,7 +27,7 @@ Information on the data? [Click here.](#information-of-the-data)
 3. How do pricing strategies, as indicated by variables like "PRICEEACH" and "MSRP," impact sales volumes?
 4. What is the distribution of customers across different regions or countries? Are there any geographical trends in sales performance?
 
-7. Are there any anomalies or outliers in the data that may require further investigation?
+5. Are there any anomalies or outliers in the data that may require further investigation?
 
 
 # Tools I used 
@@ -149,25 +149,33 @@ Overall, these correlations suggest that there are positive relationships betwee
 
 ### 4. What is the distribution of customers across different cities or countries? Are there any geographical trends in sales performance?
 
+These are the top 10 countries the customers are buying from.
 ![top_10_countries](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/64e9abfe-ff21-4dea-99c6-bc3abf56bc09)
 
-
+Top 10 cities as well.
 ![top_10_cities](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/ddb49555-2a63-42ee-941f-0aef22793b8f)
 
-
+Amount of items bought by the top 10 customers.
 ![Sales_by_customer](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/417a1c26-c38c-4f2b-bbff-f5b2757c3dfc)
 
 
 
 ### Summary of the results
 
-- **Euro Shopping Channel**: Leads in sales with a total of \$912,294.11, making it the top customer in terms of sales.
-- **Mini Gifts Distributors Ltd.**: Follows closely behind Euro Shopping Channel with total sales of \$654,858.06.
-- **Australian Collectors, Co.**: Holds the third position with total sales amounting to \$200,995.41.
-- **Muscle Machine Inc**: Close to Australian Collectors, Co. with total sales of \$197,736.94.
+- **Euro Shopping Channel**: Leads in sales with a total of \$912,294.11, making it the top customer in terms of sales. **Mini Gifts Distributors Ltd.**, follows closely behind Euro Shopping Channel with total sales of \$654,858.06.
+- **Australian Collectors, Co.**: Holds the third position with total sales amounting to \$200,995.41. **Muscle Machine Inc** stays close to Australian Collectors, Co. with total sales of \$197,736.94.
 - **La Rochelle Gifts, Dragon Souveniers, Ltd., Land of Toys Inc., The Sharp Gifts Warehouse, AV Stores, Co., Anna's Decorations, Ltd**: These customers also contribute significantly to sales, each with total sales ranging from approximately \$153,996 to \$180,124.
 
-In summary, Euro Shopping Channel and Mini Gifts Distributors Ltd. are the top two customers in terms of total sales, followed by several other customers who also make substantial contributions to the company's sales revenue.
+In summary, Euro Shopping Channel and Mini Gifts Distributors Ltd. are the top two customers in terms of total sales.
+
+### 5. Are there any anomalies or outliers in the data that may require further investigation?
+
+Yes, there are outliners present in the data.
+Lets explore the numerical columns for the outliners
+
+
+
+
 # Information of the data
 
 
