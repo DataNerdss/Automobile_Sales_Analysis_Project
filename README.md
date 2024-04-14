@@ -73,7 +73,7 @@ sns.lineplot(data = df, x = 'Month', y = 'SALES', hue = 'Year', ci = None,palett
 plt.title('Monthly Sales', loc = 'left')
 ```
 
-![MonthlySales](Images\Monthly_Sales.png)
+![MonthlySales](C:\Users\User\Desktop\Programming_Files\Python_Jubyter\Automobile_Sales_Analysis_Project\Images\Monthly_Sales.png)
 
 
 ``` py
