@@ -99,6 +99,34 @@ By understanding these trends, businesses can make informed decisions regarding 
 
 ### 2. Which product lines are the best-selling? 
 ```py
+# Sales vs Productline
+df_1 = pd.DataFrame(df.groupby('PRODUCTLINE')['SALES'].sum().sort_values(ascending = False))
+df_1['SALES_K'] = df_1["SALES"]/1000
+
+plt.figure(figsize=(10,5))
+
+sns.barplot(data = df_1, x = 'PRODUCTLINE', y = 'SALES_K', palette='magma', ci = None)
+for p in plt.gca().patches:
+    plt.gca().annotate(f'{p.get_height():.1f}k', (p.get_x() + p.get_width() / 2., p.get_height()),
+                       ha='center', va='bottom', fontsize=8)
+
+plt.title('Sales by ProductLine', loc = 'left')
+```
+![](Images\Productline_Sales.png)
+
+### Findings
+
+1. **Classic Cars** have the highest sales among all product lines, totaling approximately $3.8 million.
+  
+2. **Vintage Cars** come next, with sales reaching around \$1.8 million.
+
+3. **Trucks and Buses** and **Motorcycles** both have significant sales, each exceeding \$1.1 million.
+
+4. **Planes** and **Ships** follow with sales around \$970,000 and \$700,000, respectively.
+
+5. **Trains** have the lowest sales among the product lines, totaling approximately \$226,000.
+
+
 
 
 
