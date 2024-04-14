@@ -152,6 +152,7 @@ Overall, these correlations suggest that there are positive relationships betwee
 These are the top 10 countries the customers are buying from.
 ![top_10_countries](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/64e9abfe-ff21-4dea-99c6-bc3abf56bc09)
 
+
 Top 10 cities as well.
 ![top_10_cities](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/ddb49555-2a63-42ee-941f-0aef22793b8f)
 
@@ -173,14 +174,19 @@ In summary, Euro Shopping Channel and Mini Gifts Distributors Ltd. are the top t
 Yes, there are outliners present in the data.
 Lets explore the numerical columns for the outliners
 
-
+Distribution of the quantity of items ordered
 ![QuantityOrdered_dist](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/192337d9-e42d-4036-ae07-bec15891b00c)
 
+Distribution of the price of each of the items ordered
 ![price_per_item_dist](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/c174c7f4-7563-4d49-9044-7f861a94caae)
 
+Distribution of the sales of items ordered
 ![Sales_dist](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/7f3ee590-06a2-4f38-a302-3072c1742a6c)
 
+### Summary of the result
+The little circles at the end of the boxplots(second chart to the right) indicates the outliners. 
 
+**Quantity Ordered:** There exits a few orders that were significantly higher than the other orders placed.
 
 # Information of the data
 
