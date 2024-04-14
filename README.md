@@ -72,7 +72,10 @@ col = ['#2E27B7','#F80D0F','#26F801']
 sns.lineplot(data = df, x = 'Month', y = 'SALES', hue = 'Year', ci = None,palette=col)
 plt.title('Monthly Sales', loc = 'left')
 ```
+
 ![MonthlySales](Images\Monthly_Sales.png)
+
+
 ``` py
 # Weekly Sales
 plt.figure(figsize=(20,5))
