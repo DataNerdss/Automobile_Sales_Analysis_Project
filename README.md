@@ -147,10 +147,18 @@ Correlation betweem the three variables.
 Overall, these correlations suggest that there are positive relationships between the price of each item, MSRP, and total sales amount. However, it's important to remember that correlation does not imply causation, and other factors may also influence these relationships.
 
 
-### 4. What is the sales of customers across different cities or countries? Are there any geographical trends in sales performance?
+### 4. What is the distribution of customers across different cities or countries? Are there any geographical trends in sales performance?
 
 
+### Summary of the results
 
+- **Euro Shopping Channel**: Leads in sales with a total of \$912,294.11, making it the top customer in terms of sales.
+- **Mini Gifts Distributors Ltd.**: Follows closely behind Euro Shopping Channel with total sales of \$654,858.06.
+- **Australian Collectors, Co.**: Holds the third position with total sales amounting to \$200,995.41.
+- **Muscle Machine Inc**: Close to Australian Collectors, Co. with total sales of \$197,736.94.
+- **La Rochelle Gifts, Dragon Souveniers, Ltd., Land of Toys Inc., The Sharp Gifts Warehouse, AV Stores, Co., Anna's Decorations, Ltd**: These customers also contribute significantly to sales, each with total sales ranging from approximately \$153,996 to \$180,124.
+
+In summary, Euro Shopping Channel and Mini Gifts Distributors Ltd. are the top two customers in terms of total sales, followed by several other customers who also make substantial contributions to the company's sales revenue.
 # Information of the data
 
 
