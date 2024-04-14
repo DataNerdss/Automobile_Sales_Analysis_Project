@@ -149,6 +149,15 @@ Overall, these correlations suggest that there are positive relationships betwee
 
 ### 4. What is the distribution of customers across different cities or countries? Are there any geographical trends in sales performance?
 
+![top_10_countries](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/64e9abfe-ff21-4dea-99c6-bc3abf56bc09)
+
+
+![top_10_cities](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/ddb49555-2a63-42ee-941f-0aef22793b8f)
+
+
+![Sales_by_customer](https://github.com/DataNerdss/Automobile_Sales_Analysis_Project/assets/116424752/417a1c26-c38c-4f2b-bbff-f5b2757c3dfc)
+
+
 
 ### Summary of the results
 
