@@ -51,7 +51,7 @@ df['Month'] = df['ORDERDATE'].dt.month
 df['Quaters'] = df['ORDERDATE'].dt.quarter
 df['Week'] = df['ORDERDATE'].dt.isocalendar().week
 ```
-- Plot the various plot to display the trends
+- Plot the various charts to display the trends
 ```py
 # Yearly Sales
 plt.figure(figsize=(20,5))
@@ -73,8 +73,7 @@ sns.lineplot(data = df, x = 'Month', y = 'SALES', hue = 'Year', ci = None,palett
 plt.title('Monthly Sales', loc = 'left')
 ```
 
-![MonthlySales](C:\Users\User\Desktop\Programming_Files\Python_Jubyter\Automobile_Sales_Analysis_Project\Images\Monthly_Sales.png)
-
+![MonthlySales](Images\Monthly_Sales.png)
 
 ``` py
 # Weekly Sales
